@@ -1,0 +1,95 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/gnelman/Documents/BYU/IS JUNIOR CORE/Winter 2026/IS 413 - Application Dev/Mission 11/Mission 11 Assignment/OnlineBookstore/backend/Mission_11_Assignment/Mission_11_Assignment/Mission_11_Assignment.csproj": {}
+  },
+  "projects": {
+    "/Users/gnelman/Documents/BYU/IS JUNIOR CORE/Winter 2026/IS 413 - Application Dev/Mission 11/Mission 11 Assignment/OnlineBookstore/backend/Mission_11_Assignment/Mission_11_Assignment/Mission_11_Assignment.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/gnelman/Documents/BYU/IS JUNIOR CORE/Winter 2026/IS 413 - Application Dev/Mission 11/Mission 11 Assignment/OnlineBookstore/backend/Mission_11_Assignment/Mission_11_Assignment/Mission_11_Assignment.csproj",
+        "projectName": "Mission_11_Assignment",
+        "projectPath": "/Users/gnelman/Documents/BYU/IS JUNIOR CORE/Winter 2026/IS 413 - Application Dev/Mission 11/Mission 11 Assignment/OnlineBookstore/backend/Mission_11_Assignment/Mission_11_Assignment/Mission_11_Assignment.csproj",
+        "packagesPath": "/Users/gnelman/.nuget/packages/",
+        "outputPath": "/Users/gnelman/Documents/BYU/IS JUNIOR CORE/Winter 2026/IS 413 - Application Dev/Mission 11/Mission 11 Assignment/OnlineBookstore/backend/Mission_11_Assignment/Mission_11_Assignment/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/gnelman/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.13, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.416/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
